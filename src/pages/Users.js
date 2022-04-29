@@ -1,17 +1,17 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <>
       <header className="py-3 mb-4 border-bottom">
         <div className="container d-flex flex-wrap justify-content-center">
-          <Link
+          {/* <Link
             to="#"
             className="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none"
-          >
-            <span className="fs-4">Testing Example</span>
-          </Link>
+          > */}
+          <span className="fs-4">Testing Example</span>
+          {/* </Link> */}
         </div>
       </header>
     </>
@@ -29,9 +29,14 @@ function Content() {
 
   return (
     <>
-      <Link to={"/"} className="btn btn-secondary mb-3">
+      <a
+        href="/"
+        role="button"
+        type="button"
+        className="btn btn-secondary mb-3"
+      >
         Back to Home
-      </Link>
+      </a>
 
       <table className="table table-striped">
         <thead className="table-dark">
