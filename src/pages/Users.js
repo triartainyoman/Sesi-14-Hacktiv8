@@ -29,12 +29,7 @@ function Content() {
 
   return (
     <>
-      <a
-        href="/"
-        role="button"
-        type="button"
-        className="btn btn-secondary mb-3"
-      >
+      <a href="/" role="button" type="button" className="btn btn-primary mb-3">
         Back to Home
       </a>
 

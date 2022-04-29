@@ -23,7 +23,7 @@ test("Render halaman dengan benar", () => {
   // Mencari tombol tertentu
   // Pada halaman yang muncul karena klik tombol
   // Pastikan button kita memiliki role="button"
-  // const btn2 = screen.getByRole("button");
-  // expect(btn2).toBeInTheDocument();
+  const btn2 = screen.getByRole("button");
+  expect(btn2).toBeInTheDocument();
   // expect(btn2).toHaveTextContent("Back to Home");
 });
